@@ -1,0 +1,16 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "=========================================",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "packager":"electron-packager ./ Myexe --platform=win32 --arch=x64 --electron-version=1.8.4 --out=hack --overwrite"  
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  }
+}
