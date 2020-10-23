@@ -2,7 +2,7 @@
 
 项目本身是一个黑客帝国数字雨前端页面的效果，但是突然想到是不是可以打包成桌面app或者壁纸，找到了一个开源的前端打包源--Electron。
 
-[Electron官方构建](https://www.electronjs.org/docs/tutorial/first-app)
+[Electron官方构建](https://www.electronjs.org/docs)
 ## 环境
 
 - node.js
@@ -39,11 +39,17 @@ npm install --save-dev electron
 
 
 ./表示当前路径
+
 Myexe ：exe应用的名称
+
 platform: 打包平台 darwin, linux, mas, win32或者选择all
+
 arch: 可选 ia32, x64, armv7l, arm64或者选择all
+
 electron-version： electron的版本（）
+
 out：生成的exe保存目录
+
 overwrite:使用了这个参数，每次打包就不用把原来exe删除，可直接覆盖了。
 
 - 运行
