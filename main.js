@@ -22,7 +22,7 @@ app.on('ready', function() {
 	});
 	// 载入应用的index.html
 	mainWindow.loadURL(url.format({
-		pathname: path.join(__dirname, '/main.html'),
+		pathname: path.join(__dirname, '/main.html'),//html文件路径
 		protocol: 'file:',
 		slashes: true
 	}));
